@@ -3,10 +3,9 @@ body {
     font-family: roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    height: auto;
+    width: auto;
 }
-
-
-
 
 .header, .footer{
     color: #F9FAF8;
@@ -20,22 +19,37 @@ body {
 .header{
     background-color: #1f2937;
     font-size: 24px ;
+    padding: 16px;
 }
 
-.headertext {
+.topleft {
     display: flex;
-    justify-content:center ;
+    justify-content: flex-start ;
     align-items: center;
 }
 
+.topright {
+    display: flex;
+    justify-content: flex-end;
+    padding: 16px;
+}
 a {
     text-decoration: none;
+    color: #e5e7eb;
 }
 
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+.bottomleft {
+    
+}
+
+.bottomright {
+    justify-content: flex-end;
 }
 
 .title {
@@ -82,6 +96,7 @@ img {
     margin: 5em;
     margin-inline: 15em;
     color: #F9FAF8;
+    border-radius: 16px;
 }
 
 .smallheader{
