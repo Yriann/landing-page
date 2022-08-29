@@ -3,8 +3,6 @@ body {
     font-family: roboto, sans-serif;
     display: flex;
     flex-direction: column;
-    height: 1500px;
-    width: 1300px;
 }
 
 .header, .footer{
@@ -107,17 +105,10 @@ img {
     padding: 4em;
 }
 
-/* .quote {
-    font-size: 36px;
-    font-style: light italic;
-    color: #1f2937;
-    text-align: center;
-    padding: 4em;
-} */
-
 .author {
     text-align: end;
     font-weight: bolder;
+    font-size: 24px;
 }
 
 .section4 {
@@ -152,9 +143,9 @@ button {
 }
 
 .footer{
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 2em;
-margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    margin: 0;
 }
